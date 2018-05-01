@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0369B79C2098429000DE64DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0369B79B2098429000DE64DA /* AppDelegate.swift */; };
+		0369B79E2098429000DE64DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0369B79D2098429000DE64DA /* ViewController.swift */; };
+		0369B7A12098429000DE64DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0369B79F2098429000DE64DA /* Main.storyboard */; };
+		0369B7A62098429200DE64DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0369B7A42098429200DE64DA /* LaunchScreen.storyboard */; };
+		0369B7B12098429200DE64DA /* tanitaniParticleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0369B7B02098429200DE64DA /* tanitaniParticleTests.swift */; };
+		0369B7BC2098429200DE64DA /* tanitaniParticleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0369B7BB2098429200DE64DA /* tanitaniParticleUITests.swift */; };
+		03F8E1C42098456E0005F181 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F8E1C32098456E0005F181 /* SceneKit.framework */; };
+		03F8E1CA20984A4B0005F181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F8E1C820984A4B0005F181 /* Assets.xcassets */; };
+		03F8E1CC20984A8F0005F181 /* RainSKScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F8E1CB20984A8F0005F181 /* RainSKScene.swift */; };
+		03F8E1CF20984B230005F181 /* RainParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 03F8E1CD20984B230005F181 /* RainParticle.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0369B7AD2098429200DE64DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0369B7902098428F00DE64DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0369B7972098428F00DE64DA;
+			remoteInfo = tanitaniParticle;
+		};
+		0369B7B82098429200DE64DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0369B7902098428F00DE64DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0369B7972098428F00DE64DA;
+			remoteInfo = tanitaniParticle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0369B7982098428F00DE64DA /* tanitaniParticle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tanitaniParticle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0369B79B2098429000DE64DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0369B79D2098429000DE64DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0369B7A02098429000DE64DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0369B7A52098429200DE64DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0369B7A72098429200DE64DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0369B7AC2098429200DE64DA /* tanitaniParticleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tanitaniParticleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0369B7B02098429200DE64DA /* tanitaniParticleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tanitaniParticleTests.swift; sourceTree = "<group>"; };
+		0369B7B22098429200DE64DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0369B7B72098429200DE64DA /* tanitaniParticleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tanitaniParticleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0369B7BB2098429200DE64DA /* tanitaniParticleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tanitaniParticleUITests.swift; sourceTree = "<group>"; };
+		0369B7BD2098429200DE64DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F8E1C32098456E0005F181 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		03F8E1C820984A4B0005F181 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		03F8E1CB20984A8F0005F181 /* RainSKScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainSKScene.swift; sourceTree = "<group>"; };
+		03F8E1CD20984B230005F181 /* RainParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RainParticle.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0369B7952098428F00DE64DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F8E1C42098456E0005F181 /* SceneKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0369B7A92098429200DE64DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0369B7B42098429200DE64DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0369B78F2098428F00DE64DA = {
+			isa = PBXGroup;
+			children = (
+				0369B79A2098428F00DE64DA /* tanitaniParticle */,
+				0369B7AF2098429200DE64DA /* tanitaniParticleTests */,
+				0369B7BA2098429200DE64DA /* tanitaniParticleUITests */,
+				0369B7992098428F00DE64DA /* Products */,
+				03F8E1C22098456E0005F181 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0369B7992098428F00DE64DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0369B7982098428F00DE64DA /* tanitaniParticle.app */,
+				0369B7AC2098429200DE64DA /* tanitaniParticleTests.xctest */,
+				0369B7B72098429200DE64DA /* tanitaniParticleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0369B79A2098428F00DE64DA /* tanitaniParticle */ = {
+			isa = PBXGroup;
+			children = (
+				0369B79B2098429000DE64DA /* AppDelegate.swift */,
+				0369B79D2098429000DE64DA /* ViewController.swift */,
+				0369B79F2098429000DE64DA /* Main.storyboard */,
+				03F8E1CB20984A8F0005F181 /* RainSKScene.swift */,
+				03F8E1CD20984B230005F181 /* RainParticle.sks */,
+				03F8E1C820984A4B0005F181 /* Assets.xcassets */,
+				0369B7A42098429200DE64DA /* LaunchScreen.storyboard */,
+				0369B7A72098429200DE64DA /* Info.plist */,
+			);
+			path = tanitaniParticle;
+			sourceTree = "<group>";
+		};
+		0369B7AF2098429200DE64DA /* tanitaniParticleTests */ = {
+			isa = PBXGroup;
+			children = (
+				0369B7B02098429200DE64DA /* tanitaniParticleTests.swift */,
+				0369B7B22098429200DE64DA /* Info.plist */,
+			);
+			path = tanitaniParticleTests;
+			sourceTree = "<group>";
+		};
+		0369B7BA2098429200DE64DA /* tanitaniParticleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0369B7BB2098429200DE64DA /* tanitaniParticleUITests.swift */,
+				0369B7BD2098429200DE64DA /* Info.plist */,
+			);
+			path = tanitaniParticleUITests;
+			sourceTree = "<group>";
+		};
+		03F8E1C22098456E0005F181 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03F8E1C32098456E0005F181 /* SceneKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0369B7972098428F00DE64DA /* tanitaniParticle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0369B7C02098429200DE64DA /* Build configuration list for PBXNativeTarget "tanitaniParticle" */;
+			buildPhases = (
+				0369B7942098428F00DE64DA /* Sources */,
+				0369B7952098428F00DE64DA /* Frameworks */,
+				0369B7962098428F00DE64DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tanitaniParticle;
+			productName = tanitaniParticle;
+			productReference = 0369B7982098428F00DE64DA /* tanitaniParticle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0369B7AB2098429200DE64DA /* tanitaniParticleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0369B7C32098429200DE64DA /* Build configuration list for PBXNativeTarget "tanitaniParticleTests" */;
+			buildPhases = (
+				0369B7A82098429200DE64DA /* Sources */,
+				0369B7A92098429200DE64DA /* Frameworks */,
+				0369B7AA2098429200DE64DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0369B7AE2098429200DE64DA /* PBXTargetDependency */,
+			);
+			name = tanitaniParticleTests;
+			productName = tanitaniParticleTests;
+			productReference = 0369B7AC2098429200DE64DA /* tanitaniParticleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0369B7B62098429200DE64DA /* tanitaniParticleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0369B7C62098429200DE64DA /* Build configuration list for PBXNativeTarget "tanitaniParticleUITests" */;
+			buildPhases = (
+				0369B7B32098429200DE64DA /* Sources */,
+				0369B7B42098429200DE64DA /* Frameworks */,
+				0369B7B52098429200DE64DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0369B7B92098429200DE64DA /* PBXTargetDependency */,
+			);
+			name = tanitaniParticleUITests;
+			productName = tanitaniParticleUITests;
+			productReference = 0369B7B72098429200DE64DA /* tanitaniParticleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0369B7902098428F00DE64DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Hiroki Taniguchi";
+				TargetAttributes = {
+					0369B7972098428F00DE64DA = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					0369B7AB2098429200DE64DA = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 0369B7972098428F00DE64DA;
+					};
+					0369B7B62098429200DE64DA = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 0369B7972098428F00DE64DA;
+					};
+				};
+			};
+			buildConfigurationList = 0369B7932098428F00DE64DA /* Build configuration list for PBXProject "tanitaniParticle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0369B78F2098428F00DE64DA;
+			productRefGroup = 0369B7992098428F00DE64DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0369B7972098428F00DE64DA /* tanitaniParticle */,
+				0369B7AB2098429200DE64DA /* tanitaniParticleTests */,
+				0369B7B62098429200DE64DA /* tanitaniParticleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0369B7962098428F00DE64DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0369B7A62098429200DE64DA /* LaunchScreen.storyboard in Resources */,
+				03F8E1CF20984B230005F181 /* RainParticle.sks in Resources */,
+				0369B7A12098429000DE64DA /* Main.storyboard in Resources */,
+				03F8E1CA20984A4B0005F181 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0369B7AA2098429200DE64DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0369B7B52098429200DE64DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0369B7942098428F00DE64DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0369B79E2098429000DE64DA /* ViewController.swift in Sources */,
+				0369B79C2098429000DE64DA /* AppDelegate.swift in Sources */,
+				03F8E1CC20984A8F0005F181 /* RainSKScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0369B7A82098429200DE64DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0369B7B12098429200DE64DA /* tanitaniParticleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0369B7B32098429200DE64DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0369B7BC2098429200DE64DA /* tanitaniParticleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0369B7AE2098429200DE64DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0369B7972098428F00DE64DA /* tanitaniParticle */;
+			targetProxy = 0369B7AD2098429200DE64DA /* PBXContainerItemProxy */;
+		};
+		0369B7B92098429200DE64DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0369B7972098428F00DE64DA /* tanitaniParticle */;
+			targetProxy = 0369B7B82098429200DE64DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0369B79F2098429000DE64DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0369B7A02098429000DE64DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0369B7A42098429200DE64DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0369B7A52098429200DE64DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0369B7BE2098429200DE64DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0369B7BF2098429200DE64DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0369B7C12098429200DE64DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48KBV2T232;
+				INFOPLIST_FILE = tanitaniParticle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bocchi.tanitaniParticle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0369B7C22098429200DE64DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48KBV2T232;
+				INFOPLIST_FILE = tanitaniParticle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bocchi.tanitaniParticle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0369B7C42098429200DE64DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48KBV2T232;
+				INFOPLIST_FILE = tanitaniParticleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bocchi.tanitaniParticleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tanitaniParticle.app/tanitaniParticle";
+			};
+			name = Debug;
+		};
+		0369B7C52098429200DE64DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48KBV2T232;
+				INFOPLIST_FILE = tanitaniParticleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bocchi.tanitaniParticleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tanitaniParticle.app/tanitaniParticle";
+			};
+			name = Release;
+		};
+		0369B7C72098429200DE64DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48KBV2T232;
+				INFOPLIST_FILE = tanitaniParticleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bocchi.tanitaniParticleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tanitaniParticle;
+			};
+			name = Debug;
+		};
+		0369B7C82098429200DE64DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48KBV2T232;
+				INFOPLIST_FILE = tanitaniParticleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bocchi.tanitaniParticleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tanitaniParticle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0369B7932098428F00DE64DA /* Build configuration list for PBXProject "tanitaniParticle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0369B7BE2098429200DE64DA /* Debug */,
+				0369B7BF2098429200DE64DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0369B7C02098429200DE64DA /* Build configuration list for PBXNativeTarget "tanitaniParticle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0369B7C12098429200DE64DA /* Debug */,
+				0369B7C22098429200DE64DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0369B7C32098429200DE64DA /* Build configuration list for PBXNativeTarget "tanitaniParticleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0369B7C42098429200DE64DA /* Debug */,
+				0369B7C52098429200DE64DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0369B7C62098429200DE64DA /* Build configuration list for PBXNativeTarget "tanitaniParticleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0369B7C72098429200DE64DA /* Debug */,
+				0369B7C82098429200DE64DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0369B7902098428F00DE64DA /* Project object */;
+}
